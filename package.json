@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "heroku test deploy",
   "main": "index.js",
+  "engines":{
+    "node":"5.5.0",
+    "npm":"3.6.0"
+  },
   "scripts": {
     "start":"node index.js"
   },
