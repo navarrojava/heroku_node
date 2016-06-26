@@ -6,7 +6,7 @@ var http = require('http');
 
 //We need a function which handles requests and send response
 function handleRequest(request, response){
-    response.end('It Works!! Path Hit: ' + request.url);
+    response.end('Backend teste SelfSecurity, voce esta no path: ' + request.url);
 }
 
 //Create a server
